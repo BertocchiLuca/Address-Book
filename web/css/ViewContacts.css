@@ -1,0 +1,73 @@
+#list{
+    margin-top: 35px;
+    float: left;
+    overflow-y: scroll;
+    height: auto;
+    max-height: 600px;
+}
+
+#content{
+    color: indianred;
+    background-color: khaki;
+    text-align: justify;
+    font-size: 35px;
+    border: 4px solid indianred;
+    border-radius: 10px;
+    width: 650px;
+    padding: 20px;
+    font-family: arial;
+    transition-duration: 0.3s;
+}
+
+#content:hover{
+    background-color: darkkhaki;
+    color: firebrick;
+    font-size: 38px;
+}
+
+#Img{
+    height: 37px;
+    width: 37px;
+    border: 3px solid indianred;
+    border-radius: 37px;
+}
+
+#info{
+    float: right;
+    margin-top: 35px;
+    font-size: 35px;
+    color: indianred;
+    background-color: khaki;
+    text-align: justify;
+    border: 4px solid indianred;
+    border-radius: 10px;
+    width: 714.8px;
+    font-family: arial;
+}
+
+#mockup{
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 80px;
+    border: 5px solid indianred;
+    border-radius: 80px;
+    display: none;
+}
+
+#text{
+    text-align: center;
+}
+
+#desc{
+    text-align: center;
+    font-size: 23px;
+}
+
+.error{
+    color: indianred;
+    margin-top: 70px;
+    font-size: 40px;
+    font-family: arial;
+}
+

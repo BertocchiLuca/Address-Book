@@ -1,0 +1,35 @@
+/* Navigation bar style - Template*/
+
+#menu{
+    width: 800px;
+    margin-left: 360px;
+}
+
+.nav{
+    list-style-type: none;
+    background-color: khaki;
+    padding-left: 0px;
+}
+
+.nav .nav-item{
+    display: inline;
+    padding: 30px;
+}
+
+.nav .nav-item a{
+    text-decoration: none; 
+    font-size: 30px;
+    color: indianred;
+    font-family: arial;
+}
+
+.nav .nav-item a:hover{
+    background-color: DarkKhaki;
+    color: FireBrick;
+    transition-duration: 0.3s;
+}
+
+body{
+    text-align: center;
+    background-color: beige;
+}

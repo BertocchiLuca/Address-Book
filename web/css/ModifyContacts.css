@@ -1,0 +1,143 @@
+/*Lista dei contatti */
+#list{
+    margin-top: 35px;
+    float: left;
+    overflow-y: scroll;
+    height: auto;
+    max-height: 600px;
+}
+
+#content{
+    color: indianred;
+    background-color: khaki;
+    text-align: justify;
+    font-size: 35px;
+    border: 4px solid indianred;
+    border-radius: 10px;
+    width: 650px;
+    padding: 20px;
+    font-family: arial;
+    transition-duration: 0.3s;
+}
+
+#content:hover{
+    background-color: darkkhaki;
+    color: firebrick;
+    font-size: 38px;
+}
+
+#Img{
+    height: 37px;
+    width: 37px;
+    border: 3px solid indianred;
+    border-radius: 37px;
+}
+
+/*Messaggio che invita a modificare */
+#info{
+    float: right;
+    margin-top: 35px;
+    font-size: 35px;
+    color: indianred;
+    background-color: khaki;
+    text-align: justify;
+    border: 4px solid indianred;
+    border-radius: 10px;
+    width: 714.8px;
+    font-family: arial;
+}
+
+#text{
+    text-align: center;
+}
+
+/* Da qui in poi form */
+#mod{
+    float: right;
+    display: none;
+}
+
+#modify{
+    color: indianred;
+    border: 5px solid indianred;
+    border-radius: 10px;
+    width: 714.8px;
+    padding: 20px;
+    margin-top: 35px;
+    font-family: arial;
+}
+
+#modify .title{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#modify input{
+    width: 350px;
+    height: 40px;
+    border: 3px solid indianred;
+    border-radius: 10px;
+    font-size: 25px;
+    color: indianred;
+}
+
+textarea{
+    font-size: 20px;
+    border: 3px solid indianred;
+    border-radius: 10px;
+    height: 80px;
+    color: indianred;
+}
+
+.date{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border: 3px solid indianred;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: white;
+    color: indianred;
+}
+
+button:hover{
+    background-color: indianred;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.error{
+    color: indianred;
+    margin-top: 70px;
+    font-size: 40px;
+    font-family: arial;
+}
+
+#right{
+    margin-top: 35px;
+    float: right;
+    text-align: center;
+    color: green;
+    font-size: 22px;
+    font-family: arial;
+    margin-bottom: -30px;
+    height: 30px;
+}
+
+#Error{
+    height: 30px;
+    margin-top: 35px;
+    float: right;
+    margin-left: 50px;
+    text-align: center;
+    color: red;
+    font-size: 22px;
+    font-family: arial;
+    margin-bottom: -30px;
+}
